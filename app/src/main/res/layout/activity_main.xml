@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_name"
+        android:textSize="20sp"
+        android:layout_marginBottom="10sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:textStyle="italic"
+        android:id="@+id/name"
+        android:autofillHints="Name"
+        android:layout_marginBottom="10sp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_contact_info"
+        android:textSize="20sp"
+        android:layout_marginBottom="10sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:hint="@string/number"
+        android:textStyle="italic"
+        android:autofillHints="Number"
+        android:id="@+id/number"
+        android:layout_marginBottom="10sp"
+        android:inputType="number" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_the_subject"
+        android:textSize="20sp"
+        android:layout_marginBottom="10sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:hint="@string/subject"
+        android:textStyle="italic"
+        android:autofillHints="Subject"
+        android:id="@+id/subject"
+        android:layout_marginBottom="10sp"
+        android:inputType="text" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_body"
+        android:textSize="20sp"
+        android:layout_marginBottom="10sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="0dp"
+        android:hint="@string/subject"
+        android:textStyle="italic"
+        android:layout_weight="1"
+        android:id="@+id/body"
+        android:autofillHints="Email body"
+        android:gravity="top"
+        android:layout_marginBottom="10sp"
+        android:inputType="text" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/submit"
+        android:layout_gravity="end"/>
+
+</LinearLayout>

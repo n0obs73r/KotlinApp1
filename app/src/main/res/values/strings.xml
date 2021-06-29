@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="enter_your_name">Enter your name:</string>
+    <string name="name">Name</string>
+    <string name="enter_your_contact_number">Enter your contact number:</string>
+    <string name="submit">Submit</string>
+    <string name="enter_the_subject">Enter the subject:</string>
+    <string name="number">Number</string>
+    <string name="subject">Subject</string>
+    <string name="send_to">Send To:</string>
+    <string name="email_body">Email Body:</string>
+    <string name="your_contact_info">Your contact info:</string>
+</resources>
